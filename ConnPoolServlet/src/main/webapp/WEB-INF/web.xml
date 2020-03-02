@@ -1,0 +1,16 @@
+
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <welcome-file-list>
+  <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  <servlet-name>servlet1</servlet-name>
+  <servlet-class>com.connectionpool1.ConnPoolServlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>servlet1</servlet-name>
+  <url-pattern>/poolurl</url-pattern>
+  </servlet-mapping>
+</web-app>
